@@ -1,0 +1,51 @@
+.section_title {
+  margin-bottom: 80px;
+}
+
+.section_title h3 {
+  font-size: 28px;
+  color: #194e92;
+  margin-bottom: 10px;
+  letter-spacing: -2px;
+}
+.section_title h2 {
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+@media screen and (max-width: 767px) {
+  .section_title {
+    margin-bottom: 30px;
+  }
+  .section_title h3 {
+    font-size: 16px;
+    letter-spacing: -1px;
+  }
+  .section_title h2 {
+    font-size: 24px;
+  }
+}
+
+.section_2,
+.section_4,
+.section_5,
+.section_6 {
+  padding: 0 160px;
+}
+
+section {
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 767px) {
+  .section_2,
+  .section_4,
+  .section_5,
+  .section_6 {
+    padding: 0 16px;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+}
