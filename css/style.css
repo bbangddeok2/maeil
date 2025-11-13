@@ -229,7 +229,6 @@ header {
     font-size: 14px;
     font-weight: 700;
     text-align: center;
-    position: static;
     color: white;
     line-height: 35px;
   }
@@ -327,18 +326,20 @@ header {
   font-size: 14px;
   font-weight: 700;
   text-align: center;
-  line-height: 35px;
   background-color: #194e92;
   display: none;
 }
 
-.mob_btn_2 a {
-  color: white;
+.mob_btn_2 span {
+  line-height: 37px;
+  color: #fff;
 }
 
 .mob_btn_2 svg {
   position: relative;
   top: 3px;
+  color: #fff;
+  line-height: 35px;
 }
 
 @media screen and (max-width: 767px) {
